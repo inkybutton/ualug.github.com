@@ -69,22 +69,30 @@ body > header {
 
 section.banner {
   background: #303D4D;
-  background: url("/assets/images/banner_background.png"), #303D4D;
+ /* background: url("/assets/images/banner_background.png"), #303D4D;*/
+  background: url("/assets/images/ualug-banner.jpg") no-repeat, #303D4D;
+  background-position:center;
   box-shadow: 2px 0 5px #000000 inset;
   font-size: 46px;
-  height: 180px;
-  padding: 32px 0; }
+  height: 230px;
+  padding: 55px 0; }
   section.banner div.wrapper {
     margin: auto;
     text-align: center;
     width: 840px; }
   section.banner figure {
-    color: rgba(255, 255, 255, 0.5);
+/*    color: rgba(255,255,255,0.5); */
+    color: rgba(0,0,0,0.5);
     float: left;
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+/*    font-family: Georgia, Cambria, "Times New Roman", Times, serif;*/
+    font-family: "Roboto Medium", san-serif;
     line-height: 1.2em;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+/*    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);*/
     width: 670px; }
+  section.banner figure span {
+    background-color:rgba(255,255,255,0.8);
+    line-height:1.5;
+  }
   section.banner .side {
     margin-left: 670px;
     padding-top: 25px;
@@ -92,25 +100,26 @@ section.banner {
   section.banner a.button {
     background: #258811;
     background: linear-gradient(135deg, #31BE19 0%, #1C5B0B 100%), #258811;
-    border: 1px solid #222;
+    /*border: 1px solid #222;*/
     border-radius: 5px 5px 5px 5px;
     box-shadow: 0 1px 0 0 #3DD34A inset;
     color: rgba(255, 255, 255, 0.8);
     display: block;
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    /*font-family: Georgia, Cambria, "Times New Roman", Times, serif;*/
+    font-family: "Roboto Medium", san-serif;
     font-weight: 200;
     margin-right: 8px;
     padding: 7px 18px;
-    text-shadow: 2px 2px 0 #000000;
+    /*text-shadow: 2px 2px 0 #000000;*/
     transition: all 500ms ease 0s; }
     section.banner a.button:hover, section.banner a.button:focus {
       border-radius: 10px 10px 10px 10px;
-      box-shadow: 1px 1px 0 0 #000000 inset;
+      /*box-shadow: 1px 1px 0 0 #000000 inset;*/
       margin-left: -8px;
       margin-right: 0;
       margin-top: -8px;
       padding: 15px 26px;
-      text-shadow: 2px 2px 3px #000000; }
+     /* text-shadow: 2px 2px 3px #000000;*/ }
 
 
 section.column {
